@@ -38,10 +38,10 @@ GxIO_Class io(SPI, D0, D3, D4, D5); //CS, DC, RST, CLK
 GxEPD_Class epaper(io,D4, D6); //RST, BUSY
 PCF8574 expander(0x20);
 
-const char* ssid = "TP-Link_7264";
-const char* password = "14683251";
-const String APIKEY = "f5fc1bb6b03f4411d20ad5f924b12e4e";
-const String CityID = "765876";
+const char* ssid = "NAZWA TWOJEGO WIFI";
+const char* password = "HASŁO DO TWOJEGO WIFI";
+const String APIKEY = "TWÓJ KLUCZ API Z SERWISU OPENWEATHERMAP";
+const String CityID = "ID TWOJEGO MIASTA Z SERWISU OPENWEATHERMAP";
 const String serwerPogody = "api.openweathermap.org";
 const String serwerPowietrza = "api.gios.gov.pl";
 const String czujnikCO = "1888";
